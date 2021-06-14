@@ -16,7 +16,7 @@ function AboutMain() {
                 In school, I work as CO VP of Projects for Western AI and as a Developer for Western Tech Hub, while also having been CO VP Projects for Western Founders Network.
                 </p>
                 <p>
-                    Thanks for checking out my portfolio! If you are interested, check out my resume <a href="/" className="highlight">here</a>
+                    Thanks for checking out my portfolio! If you are interested, check out my resume <a href="https://drive.google.com/file/d/1F8nVgbfYWl_90n0dkOMW1tHjBL5hPdIz/view?usp=sharing" className="highlight">here</a>
                 </p>
             </div>
         </section>
