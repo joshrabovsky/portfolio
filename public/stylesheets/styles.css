@@ -52,12 +52,12 @@ a:hover {
   border-bottom: 2px solid #f28500;
 }
 
-div.fade-in-side:nth-of-type(2n + 1) {
+a.fade-in-side:nth-of-type(2n + 1) {
   animation: fadeInLeft 1s ease-in-out;
   opacity: 1;
 }
 
-div.fade-in-side:nth-of-type(2n) {
+a.fade-in-side:nth-of-type(2n) {
   animation: fadeInRight 1s ease-in-out;
   opacity: 1;
 }
@@ -129,6 +129,33 @@ nav ul li {
   display: inline-block;
   margin: 0 20px;
 }
+@media (max-width: 768px) {
+  nav {
+    position: relative;
+  }
+  nav ul {
+    text-align: right;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    position: relative;
+  }
+  nav ul {
+    text-align: right;
+  }
+  nav ul li {
+    display: block;
+    margin: 0 10px;
+  }
+  nav #my-name {
+    display: none;
+  }
+}
 
 #landing {
   display: flex;
@@ -144,6 +171,7 @@ nav ul li {
   font-size: 2rem;
   font-weight: 400;
   margin: 20px 0;
+  text-align: center;
 }
 #landing p {
   text-align: center;
@@ -196,7 +224,7 @@ nav ul li {
   display: grid;
   grid-template-columns: 1fr 2fr;
   width: 100%;
-  height: calc(100vh - 95px);
+  min-height: calc(100vh - 95px);
   padding: 30px 40px 0px 40px;
 }
 #aboutLanding .content-column {
@@ -213,6 +241,19 @@ nav ul li {
 #aboutLanding p {
   margin: 20px auto;
   line-height: 2rem;
+}
+@media (max-width: 768px) {
+  #aboutLanding {
+    grid-template-columns: 1fr;
+  }
+  #aboutLanding p,
+#aboutLanding h3 {
+    text-align: center;
+  }
+  #aboutLanding img {
+    max-width: 80vw;
+    margin: 20px auto;
+  }
 }
 
 #projectLanding h3 {
@@ -236,6 +277,14 @@ nav ul li {
 }
 #projectLanding .awards div p {
   font-size: 1.1rem;
+}
+@media (max-width: 768px) {
+  #projectLanding .awards {
+    grid-template-columns: 1fr;
+  }
+  #projectLanding .awards div {
+    margin: 20px auto;
+  }
 }
 
 .overlay, .overlay-yellow:hover::after, .overlay-gray:hover::after, .overlay-red:hover::after, .overlay-green:hover::after, .overlay-light-blue:hover::after, .overlay-purple:hover::after, .overlay-blue:hover::after, .overlay-teal:hover::after {
@@ -274,13 +323,13 @@ nav ul li {
   background-color: #fff500;
 }
 
-.card-container {
+a.card-container {
   display: flex;
   justify-content: center;
   margin: 30px 50px;
   height: 40vh;
 }
-.card-container .card {
+a.card-container .card {
   display: flex;
   align-items: center;
   width: 100%;
@@ -289,48 +338,59 @@ nav ul li {
   justify-content: space-between;
   background-color: #fff;
   position: relative;
+  padding: 0px 30px;
 }
-.card-container .card-content {
-  margin-left: 80px;
-}
-.card-container .card-content h2 {
+a.card-container .card-content h2 {
   font-size: 2rem;
   font-weight: 500;
   color: #120321;
 }
-.card-container .card-content p {
+a.card-container .card-content p {
   font-size: 1.5rem;
   color: #555;
 }
-.card-container .card-icon {
-  margin-right: 80px;
+@media (max-width: 768px) {
+  a.card-container .card-content h2 {
+    font-size: 1.3rem;
+  }
+  a.card-container .card-content p {
+    font-size: 1.2rem;
+  }
+}
+a.card-container .card-icon {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.card-container .card-icon img {
+a.card-container .card-icon img {
   height: 80%;
   position: relative;
   top: 10%;
 }
+@media (max-width: 768px) {
+  a.card-container img {
+    height: 50%;
+  }
+  a.card-container .card-content {
+    text-align: right;
+  }
+}
 
-div.card-container:nth-of-type(2n) .card {
+a.card-container:nth-of-type(2n) .card {
   display: flex;
   flex-direction: row-reverse;
 }
-div.card-container:nth-of-type(2n) .card-content {
+a.card-container:nth-of-type(2n) .card-content {
   text-align: right;
-  margin-left: 0px;
-  margin-right: 100px;
 }
-div.card-container:nth-of-type(2n) .card-icon {
-  margin-right: 0px;
-  margin-left: 80px;
-}
-div.card-container:nth-of-type(2n) .card-icon img {
+a.card-container:nth-of-type(2n) .card-icon img {
   position: relative;
-  left: -20%;
+}
+@media (max-width: 768px) {
+  a.card-container:nth-of-type(2n) .card-content {
+    text-align: left;
+  }
 }
 
 footer {

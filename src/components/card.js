@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
 
-function Card({title, desc, year, loc, color}) {
+function Card({title, desc, year, loc, color, link}) {
   function callbackFunc(entries, observer)
   {
     entries.forEach(entry => {
@@ -22,7 +22,7 @@ function Card({title, desc, year, loc, color}) {
   }, [title])
 
   return(
-    <div className="card-container hidden" id={title}>
+    <a href={link} target="_blank" rel="noreferrer" className="card-container hidden" id={title}>
       <div className={`card overlay-${color}`}>
         <div className="card-content">
           <h2>{title}</h2>
@@ -32,7 +32,7 @@ function Card({title, desc, year, loc, color}) {
           <img src={loc} alt={title}/>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 

@@ -4,6 +4,7 @@ const ecs = [
         "desc": "Co-VP Projects",
         "year": "2021",
         "color": "purple",
+        "link": "https://www.westernuai.com",
         "loc": "./images/icons/WAI.png"
     },
     {
@@ -11,6 +12,7 @@ const ecs = [
         "desc": "Design Thinking Cohort Member",
         "year": "2021",
         "color": "blue",
+        "link": "https://www.eng.uwo.ca/rbcdt",
         "loc": "./images/icons/RBC.png"
     },
     {
@@ -18,6 +20,7 @@ const ecs = [
         "desc": "Co-VP Projects",
         "year": "2020",
         "color": "gray",
+        "link": "https://www.foundersnetwork.ca",
         "loc": "./images/icons/WFN.png"
     },
 ]

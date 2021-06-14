@@ -4,6 +4,7 @@ const work = [
     "desc": "Software Developer Intern",
     "year": "2021",
     "color": "teal",
+    "link": "https://www.instantrecordcheck.ca",
     "loc": "./images/icons/IRC.png"
   },
   {
@@ -11,6 +12,7 @@ const work = [
     "desc": "Summer Intern",
     "year": "2020",
     "color": "green",
+    "link": "https://cclprivatecapital.com",
     "loc": "./images/icons/CC&L.png"
   },
 ]

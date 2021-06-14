@@ -8,7 +8,7 @@ function NavBar() {
     <nav>
       <div className="nav-container lg-container">
         <div className="nav-header">
-          <span><a href="/"><span id="logo">JR</span> | JOSH RABOVSKY</a></span>
+          <span><a href="/"><span id="logo">JR</span><span id="my-name"> | JOSH RABOVSKY</span></a></span>
         </div>
         <div>
           <ul>
