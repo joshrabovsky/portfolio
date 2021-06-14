@@ -25,8 +25,23 @@ const ecs = [
     },
 ]
 
-const hacks = [
-
+const awards = [
+    {
+        'title': 'Western University',
+        'desc': "Dean's Scholarship of Excellence"
+    },
+    {
+        'title': 'Richard Ivey Business School',
+        'desc': "Professor David G. Burgoyne HBA ’90 Scholarship"
+    },
+    {
+        'title': 'Western Engineering Competition',
+        'desc': "3rd place Programming Division"
+    },
+    {
+        'title': 'Western Founders Network',
+        'desc': "IBM Technology Case Competition Finalist"
+    },
 ]
 
-export {ecs, hacks}
+export {ecs, awards}

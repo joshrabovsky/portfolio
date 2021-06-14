@@ -1,5 +1,5 @@
 import Cards from './cards';
-import {ecs} from '../data/projectData'
+import {ecs, awards} from '../data/projectData'
 
 function ProjectMain(){
     return (
@@ -8,22 +8,14 @@ function ProjectMain(){
             <Cards cardItems={ecs}/>
             <h3>Awards</h3>
             <div className="awards">
-                <div>
-                    <h4>Western University</h4>
-                    <p>Dean's Scholarship of Excellence</p>
-                </div>
-                <div>
-                    <h4>Ivey Business School</h4>
-                    <p>Professor David G. Burgoyne HBA ’90 Scholarship</p>
-                </div>
-                <div>
-                    <h4>Western Engineering Competition</h4>
-                    <p>3rd place Programming Division</p>
-                </div>
-                <div>
-                    <h4>Western Founders Network</h4>
-                    <p>Technology Case Competition Finalist</p>
-                </div>
+                {awards.map((award) => {
+                    return(
+                        <div>
+                            <h4>{award.title}</h4>
+                            <p>{award.desc}</p>
+                        </div>
+                    );
+                })}
             </div>
         </main>
     );

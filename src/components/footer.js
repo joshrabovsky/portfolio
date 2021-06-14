@@ -7,6 +7,9 @@ function Footer(){
             <a href="https://www.linkedin.com/in/josh-rabovsky" target="_blank"  rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
           </li>
           <li><span>|</span>
+            <a href="https://github.com/joshrabovsky" target="_blank"  rel="noreferrer"><i class="fab fa-github"></i></a>
+          </li>
+          <li><span>|</span>
             <a href="https://www.instagram.com/joshrabovsky/" target="_blank"  rel="noreferrer"><i className="fab fa-instagram"></i></a>
           </li>
           <li><span>|</span>

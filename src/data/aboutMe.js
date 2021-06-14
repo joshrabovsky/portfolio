@@ -1,6 +1,6 @@
 const aboutMe = [
     {
-      "title": "Ivey Business School",
+      "title": "Richard Ivey Business School",
       "desc": "Honours Business Administration",
       "year": "2021-2024",
       "color": "gray",
@@ -9,7 +9,7 @@ const aboutMe = [
     },
     {
       "title": "Western University",
-      "desc": "Software Engneering",
+      "desc": "Software Engneering (4.0 GPA)",
       "year": "2019-2024",
       "color": "purple",
       "link": "https://www.uwo.ca",

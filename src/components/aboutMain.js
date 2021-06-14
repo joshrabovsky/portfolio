@@ -7,16 +7,16 @@ function AboutMain() {
             <div className="content-column">
                 <h3>AMBITIOUS • RESULTS DRIVEN • PROBLEM SOLVER</h3>
                 <p>
-                Hi! I am third year student currently completing completing a software engineering and business dual degree through Western University and Ivey. I am a front end developer and machine learning enthusiast, who enjoys tackling difficult problems, learning new ideas, and discovering technologies. 
+                Hi! I am third year student currently completing a software engineering and business dual degree through Western University and Ivey. I am a front end developer and machine learning enthusiast, who enjoys tackling difficult problems, learning new ideas, and discovering technologies. 
                 </p>
                 <p>
-                Fascinated by the intersection of business and technology, I have interned as a Software Developer at Instant Record Check and as a Summer Intern for Connor, Clark, & Lunn Private Capital. As technology - in specific machine learning - continues to penetrate most fields, I am always on the lookout for opportunities that aim to connect the two industries. 
+                As technology - in specific machine learning - continues to penetrate most fields, I am always on the lookout for opportunities that aim to connect business and technology. Fascinated by this intersection, I have learned more about the industries through internships as a Software Developer at Instant Record Check and as a Summer Intern for Connor, Clark, & Lunn Private Capital.
                 </p>
                 <p>
-                In school, I work as CO VP of Projects for Western AI and as a Developer for Western Tech Hub, while also having been CO VP Projects for Western Founders Network.
+                During my free time I love to play basketball, travel, and eating pineapple pizza. Yes, you read that correctly.
                 </p>
                 <p>
-                    Thanks for checking out my portfolio! If you are interested, check out my resume <a href="https://drive.google.com/file/d/1F8nVgbfYWl_90n0dkOMW1tHjBL5hPdIz/view?usp=sharing" className="highlight">here</a>
+                    Thanks for checking out my portfolio! If you are interested, check out my resume <a href="https://drive.google.com/file/d/1_l6bLGReYU_feeFs_2ux37boHOFoGBxc/view?usp=sharing" className="highlight" target="_blank" rel="noreferrer">here</a>
                 </p>
             </div>
         </section>

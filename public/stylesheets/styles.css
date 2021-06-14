@@ -373,7 +373,7 @@ a.card-container .card-icon img {
 }
 @media (max-width: 768px) {
   a.card-container img {
-    height: 50%;
+    max-width: 200px;
   }
   a.card-container .card-content {
     text-align: right;

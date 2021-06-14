@@ -421,7 +421,7 @@ a.card-container {
   }
   @media (max-width: $bp-m) {
     img {
-      height: 50%;
+      max-width: 200px;
     }
     .card-content {
       // margin-left: 40px;
