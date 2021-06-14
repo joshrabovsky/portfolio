@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// 
+// const theme = createMuiTheme({
+//   palette: {
+//     primary: {
+//       main: "#00008b",
+//     },
+//     secondary: {
+//       main: "",
+//     }
+//   },
+//   typography: {
+//     fontFamily: ['Segoe UI'].join(',')
+//   },
+// });
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
