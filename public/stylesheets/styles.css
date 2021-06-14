@@ -145,6 +145,9 @@ nav ul li {
   nav {
     position: relative;
   }
+  nav .nav-header {
+    margin-left: 0px;
+  }
   nav ul {
     text-align: right;
   }
@@ -402,6 +405,14 @@ footer .footer-container {
   width: 100%;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 600px) {
+  footer .footer-container span {
+    display: none;
+  }
+  footer .footer-container a {
+    margin: 10px;
+  }
 }
 footer ul {
   list-style: none;

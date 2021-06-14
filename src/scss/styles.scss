@@ -156,7 +156,9 @@ nav {
   }
   @media (max-width: $bp-sm) {
     position: relative;
-
+    .nav-header {
+      margin-left: 0px;
+    }
     ul {
       text-align: right;
       li {
@@ -463,6 +465,15 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: $bp-sm) {
+      span {
+        display: none;
+      }
+      a {
+        margin: 10px;
+      }
+    }
   }
 
   ul {
