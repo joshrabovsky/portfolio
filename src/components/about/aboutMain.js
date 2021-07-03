@@ -7,7 +7,7 @@ function AboutMain() {
             <div className="content-column">
                 <h4>AMBITIOUS • RESULTS DRIVEN • PROBLEM SOLVER</h4>
                 <p>
-                Hi! I am third year student currently completing a software engineering and business dual degree through Western University and Ivey. I am a front end developer, software developer, and aspriring full stack developer who enjoys tackling difficult problems, learning new ideas, and discovering technologies. 
+                Hi! I am third year student currently completing a software engineering and business dual degree through Western University and Ivey. I am a front end developer, machine learning enthusiast, and aspriring full stack developer who enjoys tackling difficult problems, learning new ideas, and discovering technologies. 
                 </p>
                 <p>
                 As technology - in specific machine learning - continues to penetrate the industry, I am always on the lookout for opportunities that aim to connect business and technology. Fascinated by this intersection, I have learned more about the industries through internships as a Software Developer at Instant Record Check and as a Summer Intern for Connor, Clark, & Lunn Private Capital.
