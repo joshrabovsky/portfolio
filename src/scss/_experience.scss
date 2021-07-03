@@ -1,0 +1,25 @@
+#projectLanding {
+  margin-top: $nav-height-sm;
+  .awards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 50px;
+    text-align: center;
+    div {
+      padding: 0 10px;
+      h4 {
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+    @media (max-width: $bp-m) {
+      grid-template-columns: 1fr;
+      div {
+        margin: 20px auto;
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@ function AboutMain() {
                 <img src="./images/headshot.png" alt="headshot"></img>
             </div>
             <div className="content-column">
-                <h3>AMBITIOUS • RESULTS DRIVEN • PROBLEM SOLVER</h3>
+                <h4>AMBITIOUS • RESULTS DRIVEN • PROBLEM SOLVER</h4>
                 <p>
                 Hi! I am third year student currently completing a software engineering and business dual degree through Western University and Ivey. I am a front end developer and machine learning enthusiast, who enjoys tackling difficult problems, learning new ideas, and discovering technologies. 
                 </p>
@@ -16,8 +16,11 @@ function AboutMain() {
                 During my free time I love to play basketball, travel, and eating pineapple pizza. Yes, you read that correctly.
                 </p>
                 <p>
-                    Thanks for checking out my portfolio! If you are interested, check out my resume <a href="https://drive.google.com/file/d/1_l6bLGReYU_feeFs_2ux37boHOFoGBxc/view?usp=sharing" className="highlight" target="_blank" rel="noreferrer">here</a>
+                    Thanks for checking out my portfolio! If you are interested, check out my resume below.
                 </p>
+                <div>
+                    <a href="./Resume.pdf" className="highlight" download>Download Resume</a>
+                </div>
             </div>
         </section>
     )

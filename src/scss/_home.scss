@@ -1,0 +1,96 @@
+#landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 95px;
+
+  @media (max-width: $bp-m) {
+    margin-bottom: 0px;
+  }
+
+  h6 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .small {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  button {
+    text-decoration: none;
+    font-size: 48px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      color: $active;
+    }
+  }
+
+  .fade-1 {
+    animation: fade1 0.5s ease-in;
+    opacity: 1;
+  }
+  @keyframes fade1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .fade-2 {
+    animation: fade2 1s ease-in;
+    opacity: 1;
+  }
+  @keyframes fade2 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .fade-3 {
+    animation: fade3 1.5s ease-in;
+    opacity: 1;
+  }
+  @keyframes fade3 {
+    0% {
+      opacity: 0;
+    }
+    67% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @media (max-width: $bp-sm) {
+    h6,
+    p,
+    p.small {
+      font-size: 1.5rem;
+    }
+    button {
+      font-size: 36px;
+    }
+  }
+}

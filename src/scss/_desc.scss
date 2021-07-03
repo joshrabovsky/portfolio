@@ -1,0 +1,147 @@
+.desc__main {
+  margin-top: calc(#{$nav-height-sm} + 40px);
+  width: 100%;
+  text-align: center;
+
+  .desc__header {
+    font-size: 3rem;
+    font-family: "Solway";
+    text-align: center;
+  }
+
+  .desc__desc {
+    font-size: 1.2rem;
+    color: #555;
+    font-family: "Solway";
+    margin: 30px 20px;
+    text-align: center;
+  }
+
+  .desc__banner {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.desc__brief {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  &Header {
+    flex: 0.35;
+    h3 {
+      text-align: left;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+  }
+  &Desc {
+    flex: 0.65;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      width: 45%;
+      padding-right: 5%;
+      h4 {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  @media (max-width: $bp-m) {
+    flex-direction: column;
+    &Header {
+      margin-bottom: 20px;
+    }
+    &Desc {
+      margin-left: 0px;
+      div {
+        width: 100%;
+        padding-right: 0%;
+      }
+    }
+  }
+}
+
+.desc__resume {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+  }
+  &Header {
+    flex: 0.8;
+    width: 95%;
+    padding-right: 5%;
+    h3 {
+      text-align: left;
+    }
+    .sessions {
+      margin-top: 2rem;
+      border-radius: 12px;
+      position: relative;
+    }
+    li {
+      padding-bottom: 1.5rem;
+      border-left: 1px solid $active;
+      position: relative;
+      padding-left: 20px;
+      margin-left: 10px;
+      font-size: 1.3rem;
+      &:last-child {
+        border: 0px;
+        padding-bottom: 0;
+      }
+      &:before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background: $active;
+        border: 1px solid $white;
+        // box-shadow: 3px 3px 0px $active;
+        // box-shadow: 3px 3px 0px $active;
+        border-radius: 50%;
+        position: absolute;
+        left: -10px;
+        top: 0px;
+      }
+      p {
+        font-family: "Solway";
+        font-weight: 400;
+      }
+    }
+  }
+  &Items {
+    flex: 0.2;
+    h3 {
+      text-align: left;
+    }
+    li {
+      padding-bottom: 1.5rem;
+      font-weight: 400;
+      font-size: 1.3rem;
+      a {
+        border-bottom: solid 1px $active;
+      }
+    }
+  }
+  @media (max-width: $bp-m) {
+    flex-direction: column;
+  }
+}

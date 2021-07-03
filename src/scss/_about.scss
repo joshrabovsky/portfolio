@@ -1,0 +1,52 @@
+#aboutLanding {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  min-height: calc(100vh - 95px);
+  padding: 30px 40px 0px 40px;
+  margin-top: $nav-height-sm;
+
+  .content-column {
+    padding: 5px 30px;
+  }
+
+  img {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/002/375/040/small/modern-white-background-free-vector.jpg)
+      no-repeat center center/cover;
+    width: 100%;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+
+  p {
+    margin: 20px auto;
+    line-height: 1.6rem;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    cursor: pointer;
+    background: $active;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0px;
+  }
+
+  @media (max-width: $bp-m) {
+    grid-template-columns: 1fr;
+    p,
+    h4 {
+      text-align: center;
+    }
+    img {
+      max-width: 80vw;
+      margin: 20px auto;
+    }
+  }
+}
