@@ -6,7 +6,7 @@ function Main(){
     <section id="landing">
       <h6>HELLO, I'M <span className="highlight">JOSH</span></h6>
       <p>
-        <span>A software engeer who likes to intersect
+        <span>A software engineer who likes to intersect
           <span className="highlight"> businesss </span>
         </span>
         <span>with 
