@@ -2,6 +2,22 @@ import Cards from '../global/cards';
 
 const internships = [
     {
+        "title": "Robinhood Markets",
+        "desc": "Backend Engineering Intern",
+        "year": "2022",
+        "color": "light-green",
+        "link": "/Robinhood",
+        "loc": "./images/icons/robinhood.png"
+    },
+    {
+        "title": "Datasea Consulting",
+        "desc": "Data Consultant",
+        "year": "2022",
+        "color": "blue",
+        "link": "/Datasea",
+        "loc": "./images/icons/datasea.png"
+    },
+    {
       "title": "Instant Record Check",
       "desc": "Software Developer Intern",
       "year": "2021",

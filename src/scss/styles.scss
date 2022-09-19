@@ -280,6 +280,10 @@ nav {
     @extend .overlay;
     background-color: #245c4c;
   }
+  &-light-green:hover::after {
+    @extend .overlay;
+    background-color: #00c805;
+  }
   &-red:hover::after {
     @extend .overlay;
     background-color: #ff0000;

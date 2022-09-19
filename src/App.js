@@ -13,9 +13,11 @@ import WFN from "./pages/descriptions/WFN";
 import IRC from "./pages/descriptions/IRC";
 import WAI from "./pages/descriptions/WAI";
 import WTH from "./pages/descriptions/WTH";
-import iPublisher from './pages/descriptions/iPublisher'
+import iPublisher from './pages/descriptions/iPublisher';
 import linkUp from "./pages/descriptions/linkUp";
-import idealWay from './pages/descriptions/idealWay'
+import idealWay from './pages/descriptions/idealWay';
+import Robinhood from './pages/descriptions/Robinhood';
+import Datasea from './pages/descriptions/Datasea';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/aboutMe" component={About} />
           <Route exact path="/experience" component={Experience} />
+          <Route exact path="/Robinhood" component={Robinhood} />
+          <Route exact path="/Datasea" component={Datasea} />
           <Route exact path="/RBC" component={RBC} />
           <Route exact path="/CCL" component={CCL} />
           <Route exact path="/WFN" component={WFN} />
